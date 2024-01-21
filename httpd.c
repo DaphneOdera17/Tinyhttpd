@@ -488,7 +488,7 @@ void unimplemented(int client)
 
 int main(void)
 {
-    int server_sock = -1;
+    int server_sock = -1; //listening file descripter 
     u_short port = 4000;
     int client_sock = -1;
     struct sockaddr_in client_name;
